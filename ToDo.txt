@@ -1,0 +1,22 @@
+Assignment :
+
+ 
+
+You can use any Python3 framework and database (MongoDB preferred). Do share the source code on Github or similar service. Also host the app on the service of your choice.
+
+
+Develop a web app to stream music from remote source, hosted on a server.
+
+It should have basic functionality for play, pause, next, previous and seek.
+
+When the respective buttons are clicked, it should log events in a database as well as text file (csv) capturing important info like
+timestamp, trackId, userId, play button click time, pause time, total number of seconds he/she listened too. Feel free to add events/actions that you think it would be useful.
+
+This file should be helpful to trace user actions and serve as a basic analytics.
+
+Use the captured info and display it in basic dashboard (need not be UI intensive).
+
+Generate basic report using the captured events.
+
+Do create useful REST API's for the above task to build the dashboard and WebApp. 
+API's should have proper error handling and response codes in different scenarios.
